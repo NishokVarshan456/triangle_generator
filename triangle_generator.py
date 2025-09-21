@@ -1,3 +1,6 @@
+#Author-> Nishok
+#Generate points inside the triangle and writes it to csv file.
+
 from random import random
 import csv
 
@@ -28,4 +31,5 @@ def triangle_generator(p1, p2, p3):
 
 result = triangle_generator([0, 0, 2], [0, 1, 8], [1, 0, 1])
 for i in range(5):
+
     print(next(result))
